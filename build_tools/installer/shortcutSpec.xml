@@ -1,0 +1,36 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="PWRC" location="startMenu"/>
+	<shortcut
+		name="PowerChain Server"
+		target="$INSTALL_PATH\pwrc.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start PowerChain server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no"
+		runAsAdministrator="true">
+	</shortcut>
+	<shortcut
+		name="Nordic Energy Wallet"
+		target="http://localhost:7876/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch Nordic Energy wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>
+</shortcuts>
