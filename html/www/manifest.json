@@ -1,0 +1,13 @@
+{
+  "name": "Nordic Energy",
+  "short_name": "",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#cca300",
+  "theme_color": "#cca300"
+}
