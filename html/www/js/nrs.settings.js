@@ -78,7 +78,7 @@ var NRS = (function(NRS, $) {
 
 	userStyles.header = {
 		"blue": {
-			"header_bg": "#3c8dbc",
+			"header_bg": "#e6b800",
 			"logo_bg": "#367fa9",
 			"link_bg_hover": "#357ca5"
 		},

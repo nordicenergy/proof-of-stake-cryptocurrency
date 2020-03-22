@@ -1,1 +1,8 @@
-{"balances":{},"publicKeys":[]}
+{
+    "balances": {
+         "NXT-2EXR-JAF3-NCVS-E4HQC": 30000000000000000
+     },
+     "publicKeys": [
+         "61e285b7b9a24d093938d585d127de0becff28f16ea0d46e27b66eedc286c167"
+     ]
+ }

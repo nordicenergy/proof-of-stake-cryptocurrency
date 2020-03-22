@@ -1,29 +1,13 @@
 <shortcuts>
 	<skipIfNotSupported/>
 	<defaultCurrentUser/>
-	<programGroup defaultName="NordicEnergy" location="startMenu"/>
+	<programGroup defaultName="NXT" location="startMenu"/>
 	<shortcut
-		name="NordicEnergy Server"
-		target="$INSTALL_PATH\NordicEnergy.exe"
+		name="Nxt Server"
+		target="$INSTALL_PATH\nxt.exe"
 		commandLine=""
 		workingDirectory="$INSTALL_PATH"
-        description="Start NordicEnergy server"
-		iconFile="$INSTALL_PATH\html\www\favicon.ico"
-        iconIndex="0"
-        initialState="normal"
-        programGroup="yes"
-		desktop="yes"
-        applications="no"
-        startMenu="no"
-		startup="no"
-		runAsAdministrator="true">
-	</shortcut>	
-	<shortcut
-		name="NordicEnergy Wallet"
-		target="http://localhost:6000/index.html"
-		commandLine=""
-		workingDirectory="$INSTALL_PATH"
-        description="Launch NordicEnergy wallet in browser"
+        description="Start NXT server"
 		iconFile="$INSTALL_PATH\html\www\favicon.ico"
         iconIndex="0"
         initialState="normal"

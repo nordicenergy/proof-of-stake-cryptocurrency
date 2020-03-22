@@ -25,7 +25,7 @@ var NRS = (function(NRS, $, undefined) {
 
 		var $menuItem = $('#notification_menu');
 		var $popoverItem = $("<div id='notification_popover'></div>");
-		
+
 		$.each(NRS.transactionTypes, function(typeIndex, typeDict) {
 			$.each(typeDict["subTypes"], function(subTypeIndex, subTypeDict) {
 				if (subTypeDict["notificationCount"] > 0) {
@@ -53,11 +53,11 @@ var NRS = (function(NRS, $, undefined) {
 			});
 		});
 		if (totalCount > 0) {
-			$menuItem.find('.nm_inner_subtype').css('backgroundColor', '#337ab7');
+			$menuItem.find('.nm_inner_subtype').css('backgroundColor', '#e6b800');
 			$menuItem.find('.nm_inner_total').css('backgroundColor', '#e06054');
 
 			var $markReadDiv = $("<div style='text-align:center;padding:12px 12px 8px 12px;'></div>");
-			var $markReadLink= $("<a href='#' style='color:#3c8dbc;'>" + $.t('notifications_mark_as_read', 'Mark all as read') + "</a>");
+			var $markReadLink= $("<a href='#' style='color:#e6b800;'>" + $.t('notifications_mark_as_read', 'Mark all as read') + "</a>");
 			$markReadLink.click(function(e) {
 				e.preventDefault();
 				NRS.resetNotificationState();
@@ -67,7 +67,7 @@ var NRS = (function(NRS, $, undefined) {
 			$popoverItem.append($markReadDiv);
 			document.title = $.t('app_title') + ' (' + String(totalCount) + ')';
 		} else {
-			$menuItem.find('.nm_inner_subtype').css('backgroundColor', '#337ab7');
+			$menuItem.find('.nm_inner_subtype').css('backgroundColor', '#e6b800');
 			$menuItem.find('.nm_inner_total').css('backgroundColor', '');
 			var html = "";
 			html += "<div style='text-align:center;padding:12px;'>" + $.t('no_notifications', 'No current notifications') + "</div>";
@@ -163,7 +163,7 @@ var NRS = (function(NRS, $, undefined) {
 						if (t.timestamp > subTypeDict["notificationTS"]) {
 							NRS.transactionTypes[t.type]["notificationCount"] += 1;
 							subTypeDict["notificationCount"] += 1;
-						}	
+						}
 					}
 				}
 			}
