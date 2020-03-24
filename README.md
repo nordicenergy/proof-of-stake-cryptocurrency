@@ -2,7 +2,7 @@
 # Blockchain Creation Kit #
 
 This package is intended to allow easy creation of new blockchain projects
-based on Net, satisfying the requirements of the Nordic Energy Public License
+based on Nxt, satisfying the requirements of the Nordic Energy Public License
 version 1.1 for the Nordic Energy Public Blockchain Platform.
 
 ![Screenshot](docs/images/wallet-screenshot.png)
