@@ -5,6 +5,8 @@ This package is intended to allow easy creation of new blockchain projects
 based on Net, satisfying the requirements of the Nordic Energy Public License
 version 1.1 for the Nordic Energy Public Blockchain Platform.
 
+<img src="https://github.com/nordicenergy/proof-of-stake-cryptocurrency/docs/images/wallet-screenshot.png" width="150px">
+
 This is a starter kit for developers, not for end users. If you just install
 it and run it, you will get a blockchain with no tokens, no accounts, and no
 peers configured. To actually start a new blockchain using this kit, at least
